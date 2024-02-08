@@ -1,0 +1,25 @@
+
+.publication-table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+.publication-table th {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    width: 50px;
+}
+
+.publication-table th:last-child {
+    width: 25%;
+}
+
+.publication-table th,
+.publication-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}

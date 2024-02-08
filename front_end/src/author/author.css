@@ -1,0 +1,67 @@
+.button {
+    background-color: rgb(143, 58, 58);
+    color: #FFF;
+    padding: 10px 20px;
+    display: block;
+    height: 39px;
+    border-radius: 25px;
+    margin-top: 30px;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    background: #202020;
+    box-shadow: 0px 4px 35px -5px #5a5b5d;
+    cursor: pointer;
+}
+
+.button:focus {
+    outline: none;
+}
+
+p {
+    color: black;
+    font-weight: 700;
+    padding: 5px 10px;
+}
+
+.search-publications {
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.search-publications .text {
+    width: 400px;
+}
+
+.all-authors {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.author-button {
+    background-color: rgb(241, 241, 241);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin: 30px 5px 10px 5px;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid black;
+    text-transform: uppercase;
+}
+
+.author-button:hover {
+    box-shadow: 0px 4px 35px -5px #5a5b5d;
+    cursor: pointer;
+}
+
+.author-button:focus {
+    outline: none;
+}

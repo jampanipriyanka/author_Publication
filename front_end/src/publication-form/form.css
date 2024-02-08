@@ -1,0 +1,187 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.app-title {
+    background: black;
+    color: white;
+    padding: 20px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: rgb(143, 58, 58);
+    color: #FFF;
+    padding: 10px 20px;
+    display: block;
+    height: 39px;
+    border-radius: 25px;
+    margin-top: 30px;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    background: #202020;
+    box-shadow: 0px 4px 35px -5px #5a5b5d;
+    cursor: pointer;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.form-parent {
+    display: flex;
+    justify-content: center;
+}
+
+form>p {
+    color: white;
+    font-weight: 700;
+    border-bottom: 1px solid black;
+    padding: 5px 10px;
+    background: black;
+    box-shadow: 0px 25px 20px rgba(0, 0, 0, 0.2);
+}
+
+.input-field {
+    align-items: baseline;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.input-title {
+    padding-right: 10px;
+    font-weight: 400;
+}
+
+span {
+    text-transform: uppercase;
+    font-size: 12px;
+    display: inline-block;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+}
+
+.text {
+    padding: 8px 10px;
+    display: block;
+    height: 15px;
+    border-radius: 5px;
+    background: #f9f7f7;
+    border: 0.5px solid #000;
+    overflow: hidden;
+    margin-top: 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+.author-adress {
+    height: 100px;
+}
+
+.text:focus+span {
+    opacity: 0.6;
+}
+
+input[type="text"],
+input[type="password"] {
+    font-family: 'sans-serif', Montserrat;
+    color: #000;
+}
+
+input {
+    display: inline-block;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.submit-details {
+    background-color: rgb(143, 58, 58);
+    color: #FFF;
+    width: 100%;
+    padding: 10px 20px;
+    display: block;
+    height: 39px;
+    border-radius: 25px;
+    margin-top: 30px;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.back-button {
+    background-color: rgb(48, 27, 27);
+    margin-right: 10px;
+}
+
+.submit-details:hover {
+    background: #202020;
+    box-shadow: 0px 4px 35px -5px #5a5b5d;
+    cursor: pointer;
+}
+
+.submit-details:focus {
+    outline: none;
+}
+
+.authorsForm-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.error {
+    color: red;
+    background-color: white;
+    border-bottom: 1px solid white;
+    box-shadow: none;
+}
+
+.star {
+    color: red;
+}
+
+.popup {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Styling for the popup content */
+  .popup-content {
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Styling for the close button */
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #555;
+  }
