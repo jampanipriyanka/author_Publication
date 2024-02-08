@@ -1,0 +1,62 @@
+[
+    {
+        "id":"ID",
+        "title": "Title",
+        "year": "Year",
+        "appearance":"Where the publication appeared",
+        "pages":"Pages",
+        "name": "Name",
+        "institution": "Institution",
+        "department": "Department",
+        "email": "Email",
+        "address": "Adress"
+    },
+    {
+        "id":1,
+        "title": "Rich Dad Poor Dad",
+        "year": 2000,
+        "appearance":"NA",
+        "pages":"336 or 207",
+        "name": "Robert Kiyosaki and Sharon L. Lechter",
+        "institution": "New Yok Times",
+        "department": "Finance",
+        "email": "robert@gmail.com",
+        "address": "united states"
+    },
+    {
+        "id":2,
+        "title": "Harry Potter",
+        "year": 2007,
+        "appearance":"NA",
+        "pages":"456",
+        "name": "J. K. Rowling",
+        "institution": "New Yok Times",
+        "department": "fantacy",
+        "email": "jkrowling@gmail.com",
+        "address": "united kingdom"
+    },
+    {
+        "id":3,
+        "title": "The Guest List",
+        "year": 2020,
+        "appearance":"NA",
+        "pages":"320",
+        "name": "Lucy Foley",
+        "institution": "New Yok Times",
+        "department": "Novel",
+        "email": "lucy@gmail.com",
+        "address": "united states"
+    },
+    {
+        "id":4,
+        "title": "Rich Dad Poor Dad",
+        "year": 2000,
+        "appearance":"NA",
+        "pages":"336 or 207",
+        "name": "Robert Kiyosaki and Sharon L. Lechter",
+        "institution": "New Yok Times",
+        "department": "Finance",
+        "email": "robert@gmail.com",
+        "address": "united states"
+    }
+]
